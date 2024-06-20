@@ -1,0 +1,59 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.attribution {
+    color: white;
+}
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: black;
+    font-family: "Inter", sans-serif;
+}
+.container{
+    background-color:  hsl(0, 0%, 20%);
+    margin:20px auto;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    text-align: center;
+    min-width: 20rem;
+    max-width: 30rem;
+    border-radius: 10px;
+    
+   
+}
+.image-1 img{
+    border-radius: 50%;
+    height: auto;
+    width: 100;
+}
+.name-1 h2{
+    color: rgb(250, 250, 250);
+}
+.place-1 p{
+  color:hsl(75, 94%, 57%);
+}
+.develop-1 p{
+    color: rgb(250, 250, 250);
+}
+.button{
+    padding: 1rem;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 9px;
+    width: 100%;
+    color: white;
+    font-weight: 600;
+}
+
+.button:hover{
+    background-color:hsl(75, 94%, 57%) ;
+}
+@media screen and (min-width: 425px) {
+    .container {
+        padding: 2.5rem;
+    }
+}
